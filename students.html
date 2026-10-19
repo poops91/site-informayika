@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Корисний сайт для учнів.">
+  <title>Для учнів — інформатика</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до вмісту</a>
+  <div class="site-shell">
+    <main class="main-content" id="main">
+      <header class="page-heading">
+        <h1 class="students-heading-title">
+          <img class="students-heading-icon" src="images/students-icon.png" alt="" aria-hidden="true">
+          <span>Для учнів</span>
+        </h1>
+        </header>
+      <section class="student-safety-link" aria-label="Правила безпеки для учнів">
+        <a class="safety-shortcut" href="safety.html">
+          <span class="safety-shortcut-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 5 39 11v11c0 10-6 17-15 21C15 39 9 32 9 22V11z"/><path d="m17 24 5 5 10-11"/></svg></span>
+          <span>Правила безпеки для учнів</span>
+        </a>
+              <a class="safety-shortcut" href="hotkeys.html">
+          <span class="safety-shortcut-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="4" y="9" width="40" height="30" rx="2"/><path d="M10 17h3m5 0h3m5 0h3m5 0h3M10 23h3m5 0h3m5 0h3m5 0h3M12 30h24M17 35h14"/></svg></span>
+          <span>Гарячі клавіші</span>
+        </a>
+      </section>
+      <section class="glossary-section" aria-labelledby="glossary-heading">
+        <h2 id="glossary-heading">Словничок термінів</h2>
+        <dl class="glossary-grid">
+          <div class="glossary-card"><dt>Інформація</dt><dd>Відомості про людей, предмети, події та явища, які ми отримуємо й передаємо.</dd></div>
+          <div class="glossary-card"><dt>Дані</dt><dd>Інформація, подана у формі, яку можна зберігати й опрацьовувати за допомогою комп’ютера.</dd></div>
+          <div class="glossary-card"><dt>Файл</dt><dd>Іменована сукупність даних, збережена на комп’ютері або іншому пристрої.</dd></div>
+          <div class="glossary-card"><dt>Папка</dt><dd>Місце для зберігання та впорядкування файлів і інших папок.</dd></div>
+          <div class="glossary-card"><dt>Програма</dt><dd>Набір команд, за якими комп’ютер виконує певні завдання.</dd></div>
+          <div class="glossary-card"><dt>Операційна система</dt><dd>Основна програма, яка керує роботою комп’ютера та допомагає запускати інші програми.</dd></div>
+          <div class="glossary-card"><dt>Браузер</dt><dd>Програма для перегляду вебсторінок і роботи з інтернетом.</dd></div>
+          <div class="glossary-card"><dt>Алгоритм</dt><dd>Точний порядок дій, який допомагає розв’язати задачу.</dd></div>
+        </dl>
+      </section>
+    </main>
+    <aside class="sidebar">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Меню</button>
+      <nav class="navigation" id="site-navigation" aria-label="Головна навігація">
+        <a class="nav-link" href="index.html">Головна</a>
+        <a class="nav-link" href="about.html">Про вчителя</a>
+        <div class="nav-group">
+          <button class="nav-link class-toggle" type="button" aria-expanded="false" aria-controls="class-submenu">
+            <span>Класи</span><span class="arrow" aria-hidden="true">▾</span>
+          </button>
+          <div class="submenu" id="class-submenu" hidden>
+            <a class="submenu-link" href="5clas.html">5 клас</a>
+            <a class="submenu-link" href="6clas.html">6 клас</a>
+          </div>
+        </div>
+        <a class="nav-link active" href="students.html" aria-current="page">Для учнів</a>
+        <a class="nav-link" href="parents.html">Для батьків</a>
+        <a class="nav-link" href="materials.html">Інтерактивні завдання</a>
+        <a class="nav-link" href="practice.html">Педагогічна практика</a>
+        <button class="nav-link contact-nav-button" type="button" data-contact-open>Контакти</button>
+      </nav>
+    </aside>
+  </div>
+      <dialog class="contact-dialog" aria-labelledby="contact-dialog-title">
+        <div class="contact-dialog-content">
+          <button class="contact-dialog-close" type="button" aria-label="Закрити" data-contact-close>×</button>
+          <h2 id="contact-dialog-title">Контактна інформація</h2>
+          <p class="contact-dialog-name">Цимбал Владислав</p>
+          <p>Автор навчального сайту з інформатики.</p>
+          <p>Телефон: 0936633279</p>
+          <p>Електронна пошта: tsimbalvlad527@gmail.com</p>
+        </div>
+      </dialog>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

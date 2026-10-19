@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Про навчальний сайт з інформатики для учнів, батьків і вчителів.">
+  <title>Про сайт — інформатика</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#main">Перейти до вмісту</a>
+  <div class="site-shell">
+    <main class="main-content" id="main">
+      <header class="home-banner">
+      </header>
+      <header class="intro" id="home">
+        <h1>Про сайт</h1>
+        <p class="lead">Цей сайт створений для учнів, батьків і вчителів, які прагнуть зробити навчання сучасним, цікавим і зручним. Тут зібрані навчальні матеріали, інтерактивні завдання, методичні рекомендації та корисні інтернет-ресурси.</p>
+      </header>
+      <section class="home-section-links" aria-labelledby="home-section-links-heading">
+        <h2 id="home-section-links-heading">Основні розділи</h2>
+        <div class="home-section-grid">
+          <a class="home-section-card" href="students.html">
+            <span class="home-section-title">Для учнів</span>
+            <span class="home-section-description">Правила безпеки, гарячі клавіші та словничок з інформатики.</span>
+          </a>
+          <a class="home-section-card" href="practice.html">
+            <span class="home-section-title">Для вчителів</span>
+            <span class="home-section-description">Матеріали про педагогічну практику та освітній процес.</span>
+          </a>
+          <a class="home-section-card" href="parents.html">
+            <span class="home-section-title">Для батьків</span>
+            <span class="home-section-description">Електронний журнал і критерії оцінювання.</span>
+          </a>
+          <a class="home-section-card" href="materials.html">
+            <span class="home-section-title">Інтерактивні завдання</span>
+            <span class="home-section-description">Онлайн-тести для перевірки знань з інформатики.</span>
+          </a>
+        </div>
+      </section>
+      <section class="quick-classes" aria-labelledby="quick-classes-heading">
+        <h2 id="quick-classes-heading">Швидкий перехід до класу</h2>
+        <div class="quick-class-tiles">
+          <a class="quick-class-tile" href="5clas.html">
+            <span class="quick-class-number" aria-hidden="true">5</span>
+            <span class="quick-class-title">5 клас</span>
+            <span class="quick-class-description">Підручник, календарне планування та інші матеріали</span>
+          </a>
+          <a class="quick-class-tile" href="6clas.html">
+            <span class="quick-class-number" aria-hidden="true">6</span>
+            <span class="quick-class-title">6 клас</span>
+            <span class="quick-class-description">Підручник, календарне планування та інші матеріали</span>
+          </a>
+        </div>
+      </section>
+      <section class="useful-sites" aria-labelledby="useful-sites-heading">
+        <h2 id="useful-sites-heading">Корисні сайти</h2>
+        <div class="useful-site-list">
+          <a class="useful-site-tile" href="https://2ip.io/ua/passcheck/" target="_blank" rel="noopener">
+            <span class="useful-site-icon" aria-hidden="true">✓</span>
+            <span class="useful-site-title">Перевірка надійності пароля</span>
+            <span class="useful-site-description">Відкриває онлайн-перевірку пароля. Використовуй лише вигаданий приклад, не вводь справжній пароль.</span>
+          </a>
+          <a class="useful-site-tile" href="https://code.org/" target="_blank" rel="noopener">
+            <span class="useful-site-icon" aria-hidden="true"><img src="images/codeorg-icon.png" alt=""></span>
+            <span class="useful-site-title">Code.org</span>
+            <span class="useful-site-description">Вивчай основи програмування через інтерактивні завдання та курси.</span>
+          </a>
+          <a class="useful-site-tile" href="https://www.typingclub.com/" target="_blank" rel="noopener">
+            <span class="useful-site-icon" aria-hidden="true">⌨</span>
+            <span class="useful-site-title">TypingClub</span>
+            <span class="useful-site-description">Тренуй швидкий і точний набір тексту.</span>
+          </a>
+          <a class="useful-site-tile" href="https://vseosvita.ua/" target="_blank" rel="noopener">
+            <span class="useful-site-icon" aria-hidden="true"><img src="images/vseosvita-icon.png" alt=""></span>
+            <span class="useful-site-title">Всеосвіта</span>
+            <span class="useful-site-description">Освітня платформа з тестами, олімпіадами та навчальними матеріалами.</span>
+          </a>
+        </div>
+      </section>    </main>
+
+    <aside class="sidebar">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Меню</button>
+      <nav class="navigation" id="site-navigation" aria-label="Головна навігація">
+        <a class="nav-link active" href="index.html" aria-current="page">Головна</a>
+        <a class="nav-link" href="about.html">Про вчителя</a>
+        <div class="nav-group">
+          <button class="nav-link class-toggle" type="button" aria-expanded="false" aria-controls="class-submenu">
+            <span>Класи</span><span class="arrow" aria-hidden="true">▾</span>
+          </button>
+          <div class="submenu" id="class-submenu" hidden>
+            <a class="submenu-link" href="5clas.html">5 клас</a>
+            <a class="submenu-link" href="6clas.html">6 клас</a>
+          </div>
+        </div>
+        <a class="nav-link" href="students.html">Для учнів</a>
+        <a class="nav-link" href="parents.html">Для батьків</a>
+        <a class="nav-link" href="materials.html">Інтерактивні завдання</a>
+        <a class="nav-link" href="practice.html">Педагогічна практика</a>
+        <button class="nav-link contact-nav-button" type="button" data-contact-open>Контакти</button>
+      </nav>
+    </aside>
+  </div>
+      <dialog class="contact-dialog" aria-labelledby="contact-dialog-title">
+        <div class="contact-dialog-content">
+          <button class="contact-dialog-close" type="button" aria-label="Закрити" data-contact-close>×</button>
+          <h2 id="contact-dialog-title">Контактна інформація</h2>
+          <p class="contact-dialog-name">Цимбал Владислав</p>
+          <p>Автор навчального сайту з інформатики.</p>
+          <p>Телефон: 0936633279</p>
+          <p>Електронна пошта: tsimbalvlad527@gmail.com</p>
+        </div>
+      </dialog>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
