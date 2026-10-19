@@ -1,5 +1,5 @@
 
- {
+* {
   box-sizing: border-box;
 }
 
@@ -1157,7 +1157,14 @@ body.home-page {
 
 @media (max-width: 760px) {
   .home-page .home-banner {
-    min-height: 240px;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    min-height: clamp(180px, 52vw, 240px);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
   }
 
   .home-page .intro {
