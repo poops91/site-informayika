@@ -77,8 +77,12 @@ button:focus-visible {
 .nav-home-icon,
 .nav-icon {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 24px !important;
+  height: 24px !important;
+  max-width: 24px;
+  min-width: 24px;
+  max-height: 24px;
+  min-height: 24px;
   flex: 0 0 24px;
   object-fit: contain;
   filter: invert(1);
